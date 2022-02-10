@@ -1,17 +1,71 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './component/App.jsx'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />, document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function Cards(props)
+// {
+//     return(
+//         <div>
+//             <h2>{props.name}</h2>
+//             <img src={props.img} alt='avatar_img' />
+//             <p>{props.tel}</p>
+//             <p>{props.email}</p>
+//         </div>
+//     );
+// }
+
+// ReactDOM.render(
+//     <div>
+//         <h1>My Contacts</h1>
+//         <Cards 
+//             name="RaOne" 
+//             img="https://netrinoimages.s3.eu-west-2.amazonaws.com/2017/09/10/467024/197703/cartoon_character_arnold_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_2086509_o.jpg" 
+//             tel="+123 456 789" 
+//             email="ram@gmail.com" 
+//         />
+//         <Cards 
+//             name="Varun" 
+//             img="https://blenderartists.org/uploads/default/0ffdbb1a6da5a721e3cf66c3c95b7206cb23bb20" 
+//             tel="+123 345 222" 
+//             email="sid@gmail.com" 
+//         />
+//     </div>,
+//     document.getElementById("root")
+//);

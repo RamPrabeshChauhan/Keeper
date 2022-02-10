@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/* 
+    font-family: 'McLaren', cursive;
+    font-family: 'Montserrat', sans-serif;
+ */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.heading1
+{
+    background-color: #f5ba13;
+    padding: 16px 32px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heading2
+{
+    font-family: 'McLaren', cursive;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.inputArea
+{
+    width: 30rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 0 0 0 0;
+    background: #ffffff;
+    box-shadow: 0px 2px 9px 5px rgba(165, 162, 162, 0.596);
+    -webkit-box-shadow: 0px 2px 9px 5px rgba(165, 162, 162, 0.596);
+    -moz-box-shadow: 0px 2px 9px 5px rgba(165, 162, 162, 0.596);
+    border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
+}
+
+::placeholder
+{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title-input,
+.content-input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    outline-color: green;
+    outline-width: 1px;
+}
+
+.title-input
+{
+    height: 3rem ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4px ;
+    border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+   
+}
+
+.content-input
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    resize: none;
+    white-space: pre;
+    overflow: hidden;
+    box-shadow: 0px -4px 6px -6px #222;
+}
+
+.add-button
+{
+    position: relative;
+    left: 26.6rem;
+    margin: 0 0 .5rem 0;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    background-color: #f5ba13;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(143, 139, 139, 0.68);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(143, 139, 139, 0.68);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(143, 139, 139, 0.68);
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.6s cubic-bezier(.36,-0.64,.34,1.76);
+}
+
+.add-button:hover
+{
+    background-color: rgb(31, 212, 31);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.note
+{
+    width: 30rem;
+    background-color: #1fd586;
+    margin: 0 3rem 2rem 2rem;
+    padding: 0.6rem;
+    float: left;
+}
+
+.note .title-output
+{
+    padding: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    box-shadow: 0 4px 6px -6px #222;
+
+}
+
+.note .content-output
+{
+    height: 8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.note .delete-button 
+{
+    position: relative;
+    left: 27.2rem;
+    border: none;
+    color: #1e1c1c;
+    background: transparent;
+    cursor: pointer;
+}
+.note .delete-button:hover
+{
+    color: #fff;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.footer1
+{
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.footer2
+{
+    color: #ccc;
+    background-color: none;
+    font-size: 1.2rem;
+}
+
